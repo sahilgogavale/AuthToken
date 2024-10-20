@@ -15,3 +15,5 @@ pipeline {
   }
 }
 }
+
+http://localhost:8080/buildByToken/buildWithParameters?token=1234&job=h&whoami=pranit&filename=test.txt
