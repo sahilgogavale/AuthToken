@@ -1,0 +1,17 @@
+pipeline {
+  agent any
+
+  stages{
+
+    stage('Build'){
+      steps{
+        echo "file created ${params.filename}"
+    }
+  }
+  stage('Run'){
+    steps{
+      bat "echo 'i am sahil' > ${params.filename}"
+    }
+  }
+}
+}
