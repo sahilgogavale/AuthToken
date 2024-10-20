@@ -31,4 +31,4 @@ git push -u origin new-branch-name
 
 Step 11: List branches
 git branch
-
+To see user --pretty="%an"
